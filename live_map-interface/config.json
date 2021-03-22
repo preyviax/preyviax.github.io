@@ -14,7 +14,7 @@
     "servers": {
         "Default server 1": {}, // The config values are above, no need to write them again
         "Only IP changed": { // Only the IP is different for this server. So, change it
-            "ip": "185.249.198.114"
+            "ip" : "185.249.198.114"
         },
         "Everything is different": {
             "ip": "10.10.0.1",
