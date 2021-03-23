@@ -10,23 +10,6 @@
         "ip": "185.249.198.114:30184", // Make sure this is the PUBLIC IP of the FIVEM server
         "socketPort": "30121" // Set to the port that you set in the "socket_port" convar (if different to the one in the config)
     },
-
-    "servers": {
-        "Default server 1": {}, // The config values are above, no need to write them again
-        "Only IP changed": { // Only the IP is different for this server. So, change it
-            "ip" : "185.249.198.114:30184"
-        },
-        "Everything is different": {
-            "ip": "10.10.0.1",
-            "socketPort": "60121"
-        },
-        "Reverse Proxy Example": {
-            "reverseProxy" : { // If you have knowledge on how to set up a "reverse proxy" for your webserver and want to keep the map on a secure connection, set the values below.
-                "socket": "wss://example.com", // The secure, proxied url for the socket connection
-                "blips": "https://example.com/server1/blips.json" // The secure, proxied url for the blip file
-            }
-        }
-    },
     "maps" : [
         {
             "name": "Normal",
